@@ -4,6 +4,14 @@
     margin: 0;
     padding: 0;
 }
+.button:hover{
+    border-top-right-radius: 30px;
+}
+
+.content .button {
+    padding: 20px 90px;
+    font-size: 20px;
+}
 
 .content{
     margin-top: 10%;
@@ -14,6 +22,7 @@
     font-size: 100px;
     color: white;
     text-shadow: 2px 2px 2px black;
+    
 }
 .content p{
     margin:10px 0 30px;
@@ -25,14 +34,16 @@
 }
 
 .button{
-    display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-    color: black;
     background-image: linear-gradient(45deg, rgb(0, 153, 255), rgb(255, 255, 255));
     font-size: 15px;
     border-radius: 30px;
     border-top-right-radius: 0;
+    transition: 1s;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: black;
+
 }
 
 .loginButton{
@@ -43,13 +54,14 @@
 }
 
 .hero{
-    background-position: center;
-    background-size: cover;
-    padding: 10px 10%;
     overflow: hidden;
     width: 100%;
     min-height: 100vh;
     background-image: url(./images/fitness.avif);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+  
 }
 
 nav{
@@ -73,3 +85,4 @@ nav ul li a{
     color: rgb(0, 153, 255);
     font-weight: 400;
 }
+
